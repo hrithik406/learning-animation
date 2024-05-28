@@ -24,6 +24,22 @@
         rgba(0,0,0,0)
     );
 }
+.rapper{
+    width: 90%;
+    max-width: 1536px;
+    margin-inline: auto;
+    position: relative;
+    height: 100px;
+    margin-top: 5rem;
+    overflow: hidden;
+    mask-image: linear-gradient(
+        to right,
+        rgba(0,0,0,0),
+        rgba(0,0,0,1) 20%,
+        rgba(0,0,0,1) 80%,
+        rgba(0,0,0,0)
+    );
+}
 
 .item{
     width: 200px;
@@ -32,7 +48,16 @@
     border-radius: 6px;
     position: absolute;
     left: max(calc(200px * 8), 100%);
-    animation: scroll-left 20s linear infinite;
+    animation: scroll-left 40s linear infinite;
+}
+.items{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    border-radius: 6px;
+    position: absolute;
+    left: max(calc(200px * 8), 100%);
+    animation: scroll-left 40s linear infinite reverse;
 }
 
 @keyframes scroll-left{
@@ -42,26 +67,50 @@
 }
 
 .item-1{
-    animation-delay: calc(20s / 8 * (8 - 1) * -1);
+    animation-delay: calc(40s / 8 * (8 - 1) * -1);
 }
 .item-2{
-    animation-delay: calc(20s / 8 * (8 - 2) * -1);
+    animation-delay: calc(40s / 8 * (8 - 2) * -1);
 }
 .item-3{
-    animation-delay: calc(20s / 8 * (8 - 3) * -1);
+    animation-delay: calc(40s / 8 * (8 - 3) * -1);
 }
 .item-4{
-    animation-delay: calc(20s / 8 * (8 - 4) * -1);
+    animation-delay: calc(40s / 8 * (8 - 4) * -1);
 }
 .item-5{
-    animation-delay: calc(20s / 8 * (8 - 5) * -1);
+    animation-delay: calc(40s / 8 * (8 - 5) * -1);
 }
 .item-6{
-    animation-delay: calc(20s / 8 * (8 - 6) * -1);
+    animation-delay: calc(40s / 8 * (8 - 6) * -1);
 }
 .item-7{
-    animation-delay: calc(20s / 8 * (8 - 7) * -1);
+    animation-delay: calc(40s / 8 * (8 - 7) * -1);
 }
 .item-8{
-    animation-delay: calc(20s / 8 * (8 - 8) * -1);
+    animation-delay: calc(40s / 8 * (8 - 8) * -1);
+}
+.items-1{
+    animation-delay: calc(40s / 8 * (8 - 1) * -1);
+}
+.items-2{
+    animation-delay: calc(40s / 8 * (8 - 2) * -1);
+}
+.items-3{
+    animation-delay: calc(40s / 8 * (8 - 3) * -1);
+}
+.items-4{
+    animation-delay: calc(40s / 8 * (8 - 4) * -1);
+}
+.items-5{
+    animation-delay: calc(40s / 8 * (8 - 5) * -1);
+}
+.items-6{
+    animation-delay: calc(40s / 8 * (8 - 6) * -1);
+}
+.items-7{
+    animation-delay: calc(40s / 8 * (8 - 7) * -1);
+}
+.items-8{
+    animation-delay: calc(40s / 8 * (8 - 8) * -1);
 }
